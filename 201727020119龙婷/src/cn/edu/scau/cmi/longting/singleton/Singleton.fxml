@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="449.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn/edu/scau/cmi/longting/singleton/SingletonController">
+   <children>
+      <AnchorPane layoutX="-137.0" layoutY="-147.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="63.0" layoutY="67.0" text="单例创建主席：">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="163.0" text="多例创建元帅：">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="singleName" layoutX="174.0" layoutY="64.0" prefHeight="28.0" prefWidth="161.0" promptText="请输入要创建的主席的名字" text="毛主席" />
+      <TextField fx:id="multitonName" layoutX="174.0" layoutY="161.0" prefHeight="28.0" prefWidth="161.0" promptText="请输入要创建的元帅的名字" text="天蓬元帅10" />
+      <Button fx:id="singletonBtn" layoutX="368.0" layoutY="63.0" mnemonicParsing="false" onAction="#singleton" prefHeight="28.0" prefWidth="55.0" text="创建" />
+      <Button fx:id="multitonBtn" layoutX="368.0" layoutY="161.0" mnemonicParsing="false" onAction="#multiton" prefHeight="28.0" prefWidth="55.0" text="创建" />
+      <Label fx:id="singleText" layoutX="63.0" layoutY="100.0" prefHeight="59.0" prefWidth="401.0" text="毛主席cn.edu.scau.cmi.longting.singleton.Chairman@2328c243" />
+      <Label layoutX="66.0" layoutY="437.0" text="注意：主席只能创建一个，元帅只能创建10个。" textFill="#f50606">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="63.0" layoutY="206.0" prefHeight="219.0" prefWidth="401.0" text="天蓬元帅1cn.edu.scau.cmi.longting.singleton.Marshal@bebdb06&#10;天蓬元帅2cn.edu.scau.cmi.longting.singleton.Marshal@7a4f0f29&#10;天蓬元帅3cn.edu.scau.cmi.longting.singleton.Marshal@45283ce2&#10;天蓬元帅4cn.edu.scau.cmi.longting.singleton.Marshal@2077d4de&#10;天蓬元帅5cn.edu.scau.cmi.longting.singleton.Marshal@7591083d&#10;天蓬元帅6cn.edu.scau.cmi.longting.singleton.Marshal@77a567e1&#10;天蓬元帅7cn.edu.scau.cmi.longting.singleton.Marshal@736e9adb&#10;天蓬元帅8cn.edu.scau.cmi.longting.singleton.Marshal@6d21714c&#10;天蓬元帅9cn.edu.scau.cmi.longting.singleton.Marshal@108c4c35&#10;天蓬元帅10cn.edu.scau.cmi.longting.singleton.Marshal@4ccabbaa" />
+   </children>
+</AnchorPane>
