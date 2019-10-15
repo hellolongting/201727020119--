@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="449.0" prefWidth="484.0" xmlns:fx="http://javafx.com/fxml/1"
+		 fx:controller="/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java">
+	<children>
+   <Label layoutX="10.0" layoutY="27.0" prefHeight="27.0" prefWidth="342.0" text="Sie können das System nun verwenden" textAlignment="CENTER" textOverrun="CLIP">
+     <font>
+        <Font name="System Bold" size="18.0" />
+     </font>
+  </Label>
+   </children>
+</AnchorPane>
+
