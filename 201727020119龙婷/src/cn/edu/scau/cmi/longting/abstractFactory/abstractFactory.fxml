@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="449.0" prefWidth="484.0" xmlns:fx="http://javafx.com/fxml/1"
-		 fx:controller="/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java">
-	<children>
-   <Label layoutX="10.0" layoutY="27.0" prefHeight="27.0" prefWidth="342.0" text="Sie können das System nun verwenden" textAlignment="CENTER" textOverrun="CLIP">
-     <font>
-        <Font name="System Bold" size="18.0" />
-     </font>
-  </Label>
+<AnchorPane prefHeight="449.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.scau.cmi.longting.abstractFactory.abstractFactoryController">
+   <children>
+      <Text layoutX="19.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="简单工厂模式" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="工厂模式" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="抽象工厂模式" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="19.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="which brand you want to buy: wens, tianbang or aonong：" />
+      <Text layoutX="53.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="which meat you want to buy: pork, beef or chicken：" />
+      <Text layoutX="19.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="which kind of meat you want to eat: beef or pork or chicken：" />
+      <Text layoutX="19.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="which kind of meat you want to eat: beef or pork or chicken：" />
+      <TextField fx:id="simpleFactoryInput" layoutX="377.0" layoutY="39.0" prefHeight="26.0" prefWidth="84.0" />
+      <TextField fx:id="factoryInput" layoutX="381.0" layoutY="165.0" prefHeight="26.0" prefWidth="84.0" />
+      <TextField fx:id="abstractFactoryInput1" layoutX="372.0" layoutY="308.0" prefHeight="19.0" prefWidth="84.0" />
+      <TextField fx:id="abstractFactoryInput2" layoutX="373.0" layoutY="338.0" prefHeight="26.0" prefWidth="84.0" />
+      <Button layoutX="473.0" layoutY="39.0" mnemonicParsing="false" onAction="#simpleFactoryEnsure" text="确定" />
+      <Button layoutX="473.0" layoutY="165.0" mnemonicParsing="false" onAction="#factoryEnsure" text="确定" />
+      <Button layoutX="473.0" layoutY="337.0" mnemonicParsing="false" onAction="#abstractFactoryEnsure" text="确定" />
+      <ScrollPane layoutX="19.0" layoutY="67.0">
+         <content>
+            <Label fx:id="simpleFactoryOutput" prefHeight="74.0" prefWidth="443.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="19.0" layoutY="197.0">
+         <content>
+            <Label fx:id="factoryOutput" prefHeight="94.0" prefWidth="443.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="19.0" layoutY="364.0">
+         <content>
+            <Label fx:id="abstractFactoryOutput" prefHeight="81.0" prefWidth="443.0" />
+         </content>
+      </ScrollPane>
    </children>
 </AnchorPane>
-

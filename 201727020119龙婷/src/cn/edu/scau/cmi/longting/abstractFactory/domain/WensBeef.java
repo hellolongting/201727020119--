@@ -6,10 +6,10 @@ import cn.edu.scau.cmi.longting.abstractFactory.domainInterface.Wens;
 public class WensBeef extends Beef implements Wens {
 	
 	@Override
-	public void culture() {
+	public String culture() {
 		System.out.println("这是温氏养殖的牛肉!!!");
 		System.out.println(super.name+Wens.brand);
-		
+		return "这是温氏养殖的牛肉!!!";
 	}
 	
 }

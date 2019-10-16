@@ -15,8 +15,9 @@ public class Chicken extends Meat{
 
 
 	@Override
-	public void cook() {
-		System.out.println("chicken is marvelous!!!");
+	public String cook() {
+//		System.out.println("chicken is marvelous!!!");
+		return "chicken is marvelous!!!";
 	}
 	
 }

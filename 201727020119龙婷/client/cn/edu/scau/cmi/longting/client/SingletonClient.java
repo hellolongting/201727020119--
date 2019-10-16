@@ -14,34 +14,33 @@ public class SingletonClient extends Application{
 		
 		launch(args);
 		
-		Chairman chairman1 = Chairman.getInstance("Ã«Ôó¶«");
+		Chairman chairman1 = Chairman.getInstance("Ã«ï¿½ï¿½");
 		
-		Chairman chairman2 = Chairman.getInstance("Ï°½üÆ½");
+		Chairman chairman2 = Chairman.getInstance("Ï°ï¿½ï¿½Æ½");
 		
 		if(chairman1 == chairman2) {
-			System.out.println("Ò»ÑùµÄ!");
+			System.out.println("Ò»ï¿½ï¿½ï¿½ï¿½!");
 		}else {
-			System.out.println("²»Ò»ÑùµÄ£¡");
+			System.out.println("ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä£ï¿½");
 		}
 		
-		System.out.println("ÌìÅîÔªË§1"+Marshal.getInstance("ÌìÅîÔªË§1"));
-		System.out.println("ÌìÅîÔªË§2"+Marshal.getInstance("ÌìÅîÔªË§2"));
-		System.out.println("ÌìÅîÔªË§3"+Marshal.getInstance("ÌìÅîÔªË§3"));
-		System.out.println("ÌìÅîÔªË§4"+Marshal.getInstance("ÌìÅîÔªË§4"));
-		System.out.println("ÌìÅîÔªË§5"+Marshal.getInstance("ÌìÅîÔªË§5"));
-		System.out.println("ÌìÅîÔªË§6"+Marshal.getInstance("ÌìÅîÔªË§6"));
-		System.out.println("ÌìÅîÔªË§7"+Marshal.getInstance("ÌìÅîÔªË§7"));
-		System.out.println("ÌìÅîÔªË§8"+Marshal.getInstance("ÌìÅîÔªË§8"));
-		System.out.println("ÌìÅîÔªË§9"+Marshal.getInstance("ÌìÅîÔªË§9"));
-		System.out.println("ÌìÅîÔªË§10"+Marshal.getInstance("ÌìÅîÔªË§10"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§1"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§1"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§2"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§2"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§3"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§3"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§4"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§4"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§5"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§5"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§6"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§6"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§7"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§7"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§8"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§8"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§9"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§9"));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ÔªË§10"+Marshal.getInstance("ï¿½ï¿½ï¿½ï¿½ÔªË§10"));
 		
 		
 	}
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		System.out.println("ÉÏÃæ");
-		Parent root = FXMLLoader.load(getClass().getResource("cn/edu/scau/cmi/longting/singleton/Singleton.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/cn/edu/scau/cmi/longting/singleton/Singleton.fxml"));
 		System.out.println("root: "+root);
 		Scene scene = new Scene(root);
 	    primaryStage.setScene(scene);

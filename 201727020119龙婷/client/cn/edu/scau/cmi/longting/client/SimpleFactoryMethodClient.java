@@ -16,6 +16,8 @@ public class SimpleFactoryMethodClient {
 		Meat chicken = MeatFactory.getMeat("chicken");
 		chicken.cook();
 		
+		MeatFactory.getMeat("beef").cook();
+		
 	}
 
 }

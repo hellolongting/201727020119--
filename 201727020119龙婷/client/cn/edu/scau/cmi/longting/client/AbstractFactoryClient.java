@@ -38,7 +38,7 @@ public class AbstractFactoryClient extends Application {
 			break;
 		}
 //		2. 选择肉类型
-		System.out.println("Please select which brand you want to buy: pork, beef or chicken???");
+		System.out.println("Please select which meat you want to buy: pork, beef or chicken???");
 		String meatKind = scanner.next();
 		Meats meats = null;
 		switch (meatKind) {
@@ -64,9 +64,7 @@ public class AbstractFactoryClient extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		System.out.println("path : "+getClass().getResource("/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml").getPath());
 		Parent root = FXMLLoader.load(getClass().getResource("/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml"));
-		System.out.println("root: "+root);
 		Scene scene = new Scene(root);
 	    primaryStage.setScene(scene);
 	    primaryStage.setTitle("abstractFactory");

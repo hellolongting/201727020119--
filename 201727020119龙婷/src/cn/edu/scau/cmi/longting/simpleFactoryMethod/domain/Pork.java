@@ -15,8 +15,9 @@ public class Pork extends Meat{
 
 
 	@Override
-	public void cook() {
-		System.out.println("pork is marvelous!!!");
+	public String cook() {
+//		System.out.println("pork is marvelous!!!");
+		return "pork is marvelous!!!";
 	}
 	
 }
