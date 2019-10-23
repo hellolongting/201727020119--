@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="939f2dbe-16c0-46b0-9a8c-106e2a1d8767" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201727020119龙婷.iml" beforeDir="false" afterPath="$PROJECT_DIR$/201727020119龙婷.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/AbstractFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/AbstractFactoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/SimpleFactoryMethodClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/SimpleFactoryMethodClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/SingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/cn/edu/scau/cmi/longting/client/SingletonClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/singleton/Singleton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/singleton/Singleton.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="939f2dbe-16c0-46b0-9a8c-106e2a1d8767" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +13,12 @@
     <session id="689941191">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,29 +49,29 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/singleton/Singleton.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="456">
               <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="589">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="19">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +149,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,16 +187,18 @@
       <workItem from="1569411624164" duration="379000" />
       <workItem from="1570325101241" duration="32000" />
       <workItem from="1571232433333" duration="165000" />
+      <workItem from="1571419389782" duration="264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576000" />
+    <option name="totallyTimeSpent" value="840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -237,26 +231,26 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/client/SingletonClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/singleton/Singleton.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="456">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactory.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/edu/scau/cmi/longting/abstractFactory/abstractFactoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>

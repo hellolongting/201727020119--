@@ -8,7 +8,8 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="449.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.edu.scau.cmi.longting.abstractFactory.abstractFactoryController">
+<AnchorPane prefHeight="449.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="cn.edu.scau.cmi.longting.fxml.abstractFactory.abstractFactoryController">
    <children>
       <Text layoutX="19.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="简单工厂模式" underline="true">
          <font>

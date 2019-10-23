@@ -1,4 +1,4 @@
-package cn.edu.scau.cmi.longting.abstractFactory;
+package cn.edu.scau.cmi.longting.fxml.abstractFactory;
 
 import java.awt.Button;
 import java.net.URL;
