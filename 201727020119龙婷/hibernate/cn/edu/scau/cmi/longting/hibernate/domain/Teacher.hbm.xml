@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+			"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.edu.scau.cmi.longting.hibernate.domain.Teacher" table="teacher" catalog="softwarearchitecture">
+		<id name="id" type="long">
+			<column name="id"/>
+			<generator class="identity"/>
+		</id>
+		<property name="name" type="string">
+			<column name="name" not-null="true"/>
+		</property>
+		<set name="students" inverse="true">
+			<key>
+				<column name="tutor"/>
+			</key>
+			<one-to-many class="cn.edu.scau.cmi.longting.hibernate.domain.Student" />
+		</set>
+	</class>
+</hibernate-mapping>

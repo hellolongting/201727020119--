@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="client"/>
+	<classpathentry kind="src" path="hibernate"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -12,5 +13,17 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/hibernate-core-4.1.4.Final.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Java/new_jars/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/slf4j-api-1.7.28.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/slf4j-log4j12-1.7.28.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/javassist-3.15.0-GA.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
