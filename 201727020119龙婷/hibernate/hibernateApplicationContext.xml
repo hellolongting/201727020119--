@@ -4,6 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
 	xmlns:tx="http://www.springframework.org/schema/tx">
 	<!-- 访问数据库的各种dao -->
-	<bean id="studentDAO" class="cn.deu.scau.cmi.longting.hibernate.dao.StudentDao"></bean>
-	<bean id="teacherDAO" class="cn.deu.scau.cmi.longting.hibernate.dao.TeacherDAO"></bean>
+ 	<bean id="studentDAO" class="cn.deu.scau.cmi.longting.hibernate.dao.StudentDao"></bean>
+	<bean id="teacherDAO" class="cn.deu.scau.cmi.longting.hibernate.dao.TeacherDAO"></bean>			 
 </beans>

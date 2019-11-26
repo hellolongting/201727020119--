@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="client"/>
 	<classpathentry kind="src" path="hibernate"/>
+	<classpathentry kind="src" path="IOC"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -25,5 +26,10 @@
 	<classpathentry kind="lib" path="E:/软件体系结构实验/slf4j-log4j12-1.7.28.jar"/>
 	<classpathentry kind="lib" path="E:/软件体系结构实验/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="E:/软件体系结构实验/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/spring-beans-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/spring-context-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/spring-core-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/spring-expression-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/软件体系结构实验/spring-jcl-5.0.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

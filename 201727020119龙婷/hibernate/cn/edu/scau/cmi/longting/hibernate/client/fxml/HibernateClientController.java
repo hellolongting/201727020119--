@@ -5,11 +5,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ResourceBundle;
 import org.hibernate.Session;
+import org.springframework.context.ApplicationContext;
 import cn.edu.scau.cmi.longting.hibernate.dao.StudentDao;
 import cn.edu.scau.cmi.longting.hibernate.dao.TeacherDao;
 import cn.edu.scau.cmi.longting.hibernate.domain.Student;
 import cn.edu.scau.cmi.longting.hibernate.domain.Teacher;
 import cn.edu.scau.cmi.longting.hibernate.util.ScauCmiHibernateSessionFactoryUtil;
+import cn.edu.scau.cmi.longting.spring.util.ApplicationContextUtil;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -70,12 +72,20 @@ public class HibernateClientController implements Initializable{
 	private TextArea allTeachers2;
 	
 //	spring注入dao对象
-	private static StudentDao studentDao = new StudentDao();
-	private static TeacherDao teacherDao = new TeacherDao();
+//	private static StudentDao studentDao = new StudentDao();
+//	private static TeacherDao teacherDao = new TeacherDao();
+	//实验七
+	private static StudentDao studentDao ;
+	private static TeacherDao teacherDao ;
 	private static Session session;
 	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
+		
+		ApplicationContext ac = ApplicationContextUtil.getApplicationContext();
+		studentDao = (StudentDao) ac.getBean("studentDao");
+		teacherDao = (TeacherDao) ac.getBean("teacherDao");
+		 
 		this.showAllStudents();
 		this.showAllTeachers();
 	}

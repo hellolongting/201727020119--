@@ -19,9 +19,9 @@ import javafx.stage.Stage;
 public class HibernateClient extends Application{
 	
 //	spring注入dao对象
-	private static StudentDao studentDao = new StudentDao();
-	private static TeacherDao teacherDao = new TeacherDao();
-	private static Session session;
+//	private static StudentDao studentDao = new StudentDao();
+//	private static TeacherDao teacherDao = new TeacherDao();
+//	private static Session session;
 	
 	public static void main(String[] args) {
 		Integer a=123456;
@@ -34,14 +34,14 @@ public class HibernateClient extends Application{
 		*/	}
 
 	@Override
-	public void start(Stage arg0) throws Exception {	
+	public void start(Stage arg0) throws Exception {		
 		Parent root = FXMLLoader.load(getClass().getResource("/cn/edu/scau/cmi/longting/hibernate/client/fxml/HibernateClientFxml.fxml"));
 		Scene scene = new Scene(root);
 		arg0.setScene(scene);
 		arg0.setTitle("HibernateClient");
 		arg0.show();
 	}
-	
+	/*
 	private static void newStudent() {
 		session = ScauCmiHibernateSessionFactoryUtil.getSession();
 		Transaction transaction = session.beginTransaction();
@@ -64,6 +64,6 @@ public class HibernateClient extends Application{
 			System.out.println("学生的ID号是："+student.getId()+", 学生的名字是："+student.getName());
 		}
 	}
-	
+	*/
 }
  
