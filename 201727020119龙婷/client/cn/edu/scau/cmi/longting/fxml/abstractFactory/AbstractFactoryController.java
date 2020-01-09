@@ -21,7 +21,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.text.TextFlow;
 
-public class abstractFactoryController {
+public class AbstractFactoryController {
 
 	@FXML
 	private TextField simpleFactoryInput;

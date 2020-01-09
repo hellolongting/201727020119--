@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="500.0" maxWidth="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="cn.edu.scau.cmi.longting.fxml.adapter.ObjectAdapterController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="对象适配器模式">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="151.0" text="学生学号:" />
+      <Label layoutX="23.0" layoutY="190.0" text="学生姓名：" />
+      <TextField fx:id="number" layoutX="77.0" layoutY="147.0" promptText="学号是整数" />
+      <TextField fx:id="name" layoutX="77.0" layoutY="187.0" promptText="姓名是字符串" />
+      <Button layoutX="68.0" layoutY="250.0" mnemonicParsing="false" onAction="#confirm" text="确认插入" />
+      <Button layoutX="158.0" layoutY="250.0" mnemonicParsing="false" onAction="#clear" text="清空" />
+      <TableView fx:id="table" layoutX="250.0" layoutY="47.0" prefHeight="444.0" prefWidth="240.0">
+        <columns>
+          <TableColumn fx:id="tableNum" prefWidth="115.0" text="学号" />
+          <TableColumn fx:id="tableName" prefWidth="124.0" text="姓名" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

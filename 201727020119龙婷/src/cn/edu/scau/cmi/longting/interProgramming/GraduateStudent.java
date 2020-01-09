@@ -2,7 +2,8 @@ package cn.edu.scau.cmi.longting.interProgramming;
 
 public class GraduateStudent extends Student{
 	@Override
-	public void learning() {
-		System.out.println("996����룡");
+	public String learning() {
+		System.out.println("996编代码！");
+		return "996编代码";
 	}
 }

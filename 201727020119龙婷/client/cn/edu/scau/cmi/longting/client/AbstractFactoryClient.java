@@ -64,7 +64,7 @@ public class AbstractFactoryClient extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {  
-		Parent root = FXMLLoader.load(getClass().getResource("/cn/edu/scau/cmi/longting/fxml/abstractFactory/abstractFactory.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/cn/edu/scau/cmi/longting/fxml/abstractFactory/AbstractFactory.fxml"));
 		Scene scene = new Scene(root);
 	    primaryStage.setScene(scene);
 	    primaryStage.setTitle("abstractFactory");

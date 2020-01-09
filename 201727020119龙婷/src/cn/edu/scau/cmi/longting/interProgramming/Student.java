@@ -1,7 +1,8 @@
 package cn.edu.scau.cmi.longting.interProgramming;
 
 public abstract class Student {
-	public void learning() {
-		System.out.println("好好学习，天天向上！！！");
+	public String learning() {
+		System.out.println("濂藉ソ瀛︿範锛屽ぉ澶╁悜涓婏紒");
+		return "濂藉ソ瀛︿範锛屽ぉ澶╁悜涓婏紒";
 	}
 }

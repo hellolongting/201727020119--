@@ -7,6 +7,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 public class SingletonController implements Initializable{
@@ -21,9 +22,9 @@ public class SingletonController implements Initializable{
 	private Label singleText;
 	
 	@FXML
-	private Label multitonText;
+	private TextArea multitonText;
 
-	private boolean flag = true;
+	private boolean flag;
 	
 	private String out;
 	
@@ -32,7 +33,7 @@ public class SingletonController implements Initializable{
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		// TODO Auto-generated method stub
-		
+		flag = true;
 	}
 	
 	@FXML
@@ -42,9 +43,9 @@ public class SingletonController implements Initializable{
 			Chairman chairman = Chairman.getInstance(name);			
 			singleText.setText(name+chairman);
 			flag = false;
-			out = name+chairman;
+			out = name;
 		}else {
-			singleText.setText(out+"ÒÑ¾­´´½¨ÁËÒ»¸öÖ÷Ï¯£¬Ö»ÄÜ´´½¨Ò»¸öÅ¶£¡");
+			singleText.setText("å·²ç»åˆ›å»ºäº†ä¸»å¸­ï¼šâ€˜"+out+"â€™ , ä¸»å¸­åªèƒ½åˆ›å»ºä¸€ä¸ªï¼");
 		}
 	}
 	    
@@ -53,10 +54,16 @@ public class SingletonController implements Initializable{
 	    if (MARSHAL_NUM < 10) {
 	    	String name = multitonName.getText();
 	    	Marshal marshal = Marshal.getInstance(name);
-	    	multitonText.setText(multitonText.getText()+"\n"+name+marshal);    	
+	    	if(MARSHAL_NUM > 0) {
+	    		multitonText.setText(multitonText.getText()+"\n"+name+marshal);
+	    	}else {
+//	    		System.out.println("name+marshal : "+name+marshal);
+	    		multitonText.setText(name+marshal);
+	    	}
 	    	MARSHAL_NUM++;
-	    }else {
-	    	multitonText.setText(multitonText.getText()+"\n"+"ÄúÒÑ¾­´´½¨10¸öÔªË§£¬²»ÄÜÔÙ´´½¨¡£");    	
+	    }else if(MARSHAL_NUM == 10){
+	    	MARSHAL_NUM++;
+	    	multitonText.setText(multitonText.getText()+"\n"+"å…ƒå¸…åªèƒ½åˆ›å»ºåä¸ªï¼");    	
 	    }
 	}
 	

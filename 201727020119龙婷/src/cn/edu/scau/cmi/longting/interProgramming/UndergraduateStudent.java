@@ -2,7 +2,8 @@ package cn.edu.scau.cmi.longting.interProgramming;
 
 public class UndergraduateStudent extends Student{
 	@Override
-	public void learning() {
-		System.out.println("007×ö¿ÆÑĞ£¡");
+	public String learning() {
+		System.out.println("007åšç§‘ç ”ï¼");
+		return "007åšç§‘ç ”ï¼";
 	}
 }
